@@ -1,0 +1,25 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../assets/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .shop-link {
+    margin-top: 20px;
+    cursor: pointer;
+    width: 50px; /* Ajustez la taille selon vos besoins */
+    height: 50px; /* Ajustez la taille selon vos besoins */
+  }
+  

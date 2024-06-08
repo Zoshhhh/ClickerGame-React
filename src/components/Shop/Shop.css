@@ -1,0 +1,25 @@
+.shop {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .shop h2 {
+    margin-bottom: 20px;
+  }
+  
+  .shop ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .shop li {
+    margin-bottom: 10px;
+  }
+  
+  .shop button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  

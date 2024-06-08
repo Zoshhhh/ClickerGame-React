@@ -1,0 +1,32 @@
+.clicker-button {
+    width: 150px; /* Augmenter la taille du bouton */
+    height: 150px;
+    background-size: contain; /* Utiliser contain pour adapter l'image au bouton */
+    background-repeat: no-repeat; /* Empêcher la répétition de l'image */
+    background-position: center;
+    background-color: transparent; /* Assurez-vous que le fond est transparent */
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.1s ease-in-out; /* Ajout d'une transition pour l'animation */
+  }
+  
+  .clicker-button:focus {
+    outline: none;
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+  .clicked {
+    transform: scale(1.1); /* Agrandir le bouton légèrement */
+  }
+  
